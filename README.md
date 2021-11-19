@@ -1,4 +1,4 @@
-# Lean Python Tutorials 🐍
+# Learn Python Tutorials 🐍
 
 Kaggle: <https://www.kaggle.com/learn/python>
 
