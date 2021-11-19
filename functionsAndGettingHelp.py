@@ -10,3 +10,7 @@ def round_to_two_places(num):
     # because after we begin a code block, Python requires at least one line of code)
     return round(num,2)
 
+# Question 2
+# The help for round says that ndigits (the second argument) may be negative. What do you think will happen when it is? Try some examples in the following cell.
+num = 987.568
+round(num,-1)
