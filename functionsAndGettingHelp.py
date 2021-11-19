@@ -35,3 +35,57 @@ def to_smash(total_candies, number_of_friends = 3):
     
     return total_candies % number_of_friends
 
+# Question 4
+"""
+It may not be fun, but reading and understanding error messages will be an important part of your Python career.
+
+Each code cell below contains some commented buggy code. For each cell...
+
+1. Read the code and predict what you think will happen when it's run.
+2. Then uncomment the code and run it to see what happens. (Tip: In the kernel editor, you can highlight several lines and press ctrl+/ to toggle commenting.)
+3. Fix the code (so that it accomplishes its intended purpose without throwing an exception)
+"""
+
+#ruound_to_two_places(9.9999)
+round_to_two_places(9.9999) # function has been defined already, fix word round
+
+
+x = -10
+y = 5
+# Which of the two variables above has the smallest absolute value?
+smallest_abs = min(abs(x, y))
+    """
+        ---------------------------------------------------------------------------
+    TypeError                                 Traceback (most recent call last)
+    /tmp/ipykernel_36/727071319.py in <module>
+        2 y = 5
+        3 # Which of the two variables above has the smallest absolute value?
+    ----> 4 smallest_abs = min(abs(x, y))
+
+    TypeError: abs() takes exactly one argument (2 given)
+    """
+x = -10
+y = 5
+# Which of the two variables above has the smallest absolute value?
+x = abs(x)
+y = abs(y)
+smallest_abs = min(x,y)
+
+"""
+def f(x):
+    y = abs(x)
+return y
+
+print(f(5))
+"""
+"""
+  File "/tmp/ipykernel_36/331701207.py", line 3
+    return y
+            ^
+SyntaxError: 'return' outside function
+"""
+def f(x):
+    y = abs(x)
+    return y
+
+print(f(5))
