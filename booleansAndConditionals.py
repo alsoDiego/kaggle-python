@@ -64,3 +64,13 @@ def is_negative(number):
 def concise_is_negative(number):
     return number < 0
 
+# q5a
+def onionless(ketchup, mustard, onion):
+    """Return whether the customer doesn't want onions.
+    """
+    return not onion
+
+def wants_all_toppings(ketchup, mustard, onion):
+    """Return whether the customer wants "the works" (all 3 toppings)
+    """
+    return ketchup and mustard and onion
