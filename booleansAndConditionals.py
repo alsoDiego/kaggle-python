@@ -53,3 +53,14 @@ is_workday = False
 # Check what the function returns given the current values of the variables above
 actual = prepared_for_weather(have_umbrella, rain_level, have_hood, is_workday)
 print(actual)
+
+# q4
+def is_negative(number):
+    if number < 0:
+        return True
+    else:
+        return False
+
+def concise_is_negative(number):
+    return number < 0
+
