@@ -15,14 +15,14 @@ def has_lucky_number(nums):
 """
 My solution passed all tests. The given solutions are:
 
-def has_lucky_number(nums):
-    for num in nums:
-        if num % 7 == 0:
-            return True
-    # We've exhausted the list without finding a lucky number
-    return False
+    def has_lucky_number(nums):
+        for num in nums:
+            if num % 7 == 0:
+                return True
+        # We've exhausted the list without finding a lucky number
+        return False
 
-def has_lucky_number(nums):
-    return any([num % 7 == 0 for num in nums])
+    def has_lucky_number(nums):
+        return any([num % 7 == 0 for num in nums])
 """
 
