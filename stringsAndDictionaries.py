@@ -25,3 +25,9 @@ length = 3
 e = '\n'
 length = 1
 
+# q1
+def is_valid_zip(zip_code):
+    """Returns whether the input string is a valid (5 digit) zip code
+    """
+    return (len(zip_code) == 5) and zip_code.isdigit()
+
