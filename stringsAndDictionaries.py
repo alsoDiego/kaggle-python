@@ -12,3 +12,8 @@ length = 0
 # q0b
 b = "it's ok"
 length = 7
+
+# q0c
+c = 'it\'s ok'
+length = 7
+
