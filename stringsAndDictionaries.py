@@ -21,3 +21,7 @@ length = 7
 d = """hey"""
 length = 3
 
+# q0e
+e = '\n'
+length = 1
+
