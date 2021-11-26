@@ -47,3 +47,14 @@ My solution passed all tests. The another given solution is:
         return [ele > thresh for ele in L]
 """
 
+# q3
+def menu_is_boring(meals):
+    """Given a list of meals served over some period of time, return True if the
+    same meal has ever been served two days in a row, and False otherwise.
+    """
+    i = 0
+    for i in range(len(meals)-1):
+        if meals[i] == meals[i+1]:
+            return True
+    return False
+
