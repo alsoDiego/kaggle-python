@@ -17,3 +17,7 @@ length = 7
 c = 'it\'s ok'
 length = 7
 
+# q0d
+d = """hey"""
+length = 3
+
