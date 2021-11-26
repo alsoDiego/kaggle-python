@@ -37,3 +37,23 @@ d = [1, 2, 3][1:]
 # first being the length of a, the second being the length of b and so on.
 lengths = [3, 2, 0, 2]
 
+def fashionably_late(arrivals, name):
+    """Given an ordered list of arrivals to the party and a name, return whether the guest with that
+    name was fashionably late.
+    """
+    if len(arrivals) >= 3:
+        # first fashionably late
+        if len(arrivals) % 2 == 0:
+            index = (len(arrivals)//2)
+        else:
+            index = (len(arrivals)//2) + 1
+        return name in arrivals[index:-1]
+    else:
+        return False
+"""
+My solution passed all tests, the given solution is:
+def fashionably_late(arrivals, name):
+    order = arrivals.index(name)
+    return order >= len(arrivals) / 2 and order != len(arrivals) - 1
+"""
+
