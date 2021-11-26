@@ -9,3 +9,6 @@ For each of the five strings below, predict what len() would return when passed 
 a = ""
 length = 0
 
+# q0b
+b = "it's ok"
+length = 7
